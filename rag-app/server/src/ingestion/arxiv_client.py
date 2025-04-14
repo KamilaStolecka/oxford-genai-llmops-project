@@ -92,6 +92,10 @@ def fetch_papers_paginated(
 
 if __name__ == "__main__":
     # papers = fetch_papers(query="ti:perovskite", max_results=10)
+    # Inspect some of the data in the papers-downloads folder. 
+    # Where in the code have I defined the keyword for the search against the arXiv API? Take a 
+    
+    # HERE!
     papers = fetch_papers_paginated(
         query="ti:perovskite", max_results=20, results_per_page=5, wait_time=5
     )
